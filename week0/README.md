@@ -7,6 +7,22 @@ Next, the design is implemented as a Register-Transfer Level (RTL) soft copy usi
 
 Throughout the process, each stage is verified against the previous stage to ensure functional equivalence. For instance, the Gate Level Netlist is checked against the RTL, and the RTL is checked against the C model. The final SOC is a complex integration of digital and analog components, and its performance is evaluated against the initial specifications, often involving clock frequency targets.
 
+---
+
+## Installed Tools
+
+| Tool       | Purpose                                  |
+|------------|------------------------------------------|
+| Yosys      | Logic synthesis                          |
+| Iverilog   | Verilog simulation                       |
+| GTKWave    | Waveform viewer                          |
+| OpenSTA    | Static Timing Analysis                   |
+| Ngspice    | Circuit simulation (SPICE)               |
+| Magic      | VLSI layout tool                         |
+| OpenLane   | End-to-end ASIC flow automation          |
+
+---
+
 ## Tools installation
 
 ### 1. Yosys 
