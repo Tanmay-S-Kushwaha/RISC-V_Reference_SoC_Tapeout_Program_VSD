@@ -23,22 +23,30 @@ make config-gcc
 make
 sudo make install 
 ```
+<img width="745" height="190" alt="Screenshot from 2025-09-20 19-11-25" src="https://github.com/user-attachments/assets/61ddb699-a519-42cf-89df-ea0110b836a2" />
+
 ### 2.Iverilog
 ```bash
 sudo apt-get update
 sudo apt-get install iverilog
 ```
+<img width="732" height="565" alt="Screenshot from 2025-09-20 19-07-22" src="https://github.com/user-attachments/assets/50dba405-6064-4e2b-bd8e-4399c7419a5b" />
+
 ### 3.gtkwave
 ```bash
 sudo apt-get update
 sudo apt install gtkwave 
 ```
+<img width="735" height="133" alt="Screenshot from 2025-09-20 19-14-38" src="https://github.com/user-attachments/assets/b7960fdb-b845-42da-841c-4ddd0ccb8baa" />
+
 ### 4.OpenSTA
 ```bash 
 git clone https://github.com/parallaxsw/OpenSTA.git  
 cd OpenSTA
 docker build --file Dockerfile.ubuntu22.04 --tag opensta .  //build with docker
 ```
+<img width="742" height="168" alt="Screenshot from 2025-09-20 19-45-28" src="https://github.com/user-attachments/assets/d986c2fe-98ff-468e-86dd-b57db909c3b9" />
+
 ### 5.ngspice
 ```bash
 tar -zxvf ngspice-37.tar.gz
@@ -49,6 +57,8 @@ cd release
 make
 sudo make install 
 ```
+<img width="722" height="242" alt="Screenshot from 2025-09-20 22-12-10" src="https://github.com/user-attachments/assets/e7bcba99-866c-4822-af27-4f18a05fc40a" />
+
 ### 6.magic
 ```bash
 sudo apt-get install m4
@@ -65,6 +75,8 @@ cd magic
 make
 make install 
 ```
+<img width="1452" height="497" alt="Screenshot from 2025-09-20 22-21-54" src="https://github.com/user-attachments/assets/9c8e37e2-89f2-4d80-87ec-7881e744fa93" />
+
 ### 7.OpenLane
 ```bash
 git clone https://github.com/The-OpenROAD-Project/OpenLane
@@ -72,4 +84,5 @@ cd OpenLane
 make
 make test 
 ```
+<img width="735" height="437" alt="Screenshot from 2025-09-20 23-29-34" src="https://github.com/user-attachments/assets/4daeab19-a245-4085-82e2-7969240a3f58" />
 
