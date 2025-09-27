@@ -47,6 +47,8 @@ iverilog good_mux.v tb_good_mux.v
 gtkwave tb_good_mux.vcd
 ```
 GTKWave opens to inspect the simulated waveforms.
+<img width="993" height="58" alt="Screenshot from 2025-09-27 12-35-52" src="https://github.com/user-attachments/assets/def8130b-6f67-4a61-8c34-97e5d3201a2a" />
+<img width="990" height="534" alt="Screenshot from 2025-09-27 12-34-59" src="https://github.com/user-attachments/assets/6863e260-fe06-4245-b18b-0ee19a4726a4" />
 
 ### RTL Design 2-to-1 MUX
 ```verilog
@@ -113,6 +115,7 @@ abc -liberty /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```bash
 show
 ```
+<img width="599" height="638" alt="image" src="https://github.com/user-attachments/assets/e47288dd-9a2a-4555-a342-fa38ab36e660" />
 
 ---
 
