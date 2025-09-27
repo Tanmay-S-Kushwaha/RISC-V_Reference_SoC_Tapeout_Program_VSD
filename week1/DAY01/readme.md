@@ -95,12 +95,12 @@ It provides the following capabilities:
    ```
 2. **Load Standard Cell Library**
 ```bash
-read_liberty -lib /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib ./lib/sky130_fd_sc_hd__tt_025C_1v80.lib  #from inside the repo
 ```
 
 3. **Import Verilog Source**
 ```bash
-read_verilog good_mux.v
+read_verilog ./verilog_files/good_mux.v
 ```
 
 4. **Run Synthesis**
@@ -110,7 +110,7 @@ synth -top good_mux
 
 5. **Technology Mapping**
 ```bash
-abc -liberty /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty ./lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
 6. **View Gate-Level Schematic**
