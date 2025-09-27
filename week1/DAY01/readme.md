@@ -49,7 +49,7 @@ gtkwave tb_good_mux.vcd
 <img width="993" height="58" alt="Screenshot from 2025-09-27 12-35-52" src="https://github.com/user-attachments/assets/def8130b-6f67-4a61-8c34-97e5d3201a2a" />
 
 GTKWave opens to inspect the simulated waveforms.
-<img width="445" height="267" alt="Screenshot from 2025-09-27 12-34-59" src="https://github.com/user-attachments/assets/6863e260-fe06-4245-b18b-0ee19a4726a4" />
+<img width="990" height="534" alt="Screenshot from 2025-09-27 12-34-59" src="https://github.com/user-attachments/assets/6863e260-fe06-4245-b18b-0ee19a4726a4" />
 
 ### RTL Design 2-to-1 MUX
 ```verilog
