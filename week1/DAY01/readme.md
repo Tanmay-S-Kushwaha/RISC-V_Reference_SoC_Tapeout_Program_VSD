@@ -20,6 +20,7 @@ Day 1 of the RTL Design & Synthesis Workshop introduces the basics of Verilog RT
 - **Simulator**: Software that mimics hardware behavior by applying test vectors and checking output responses.  
 - **Design**: The Verilog RTL code describing the intended digital logic.  
 - **Testbench**: A wrapper around the design that drives input sequences and verifies the output.  
+<img width="1799" height="834" alt="Screenshot from 2025-09-27 11-55-37" src="https://github.com/user-attachments/assets/036a7caf-092a-479c-87b2-9ac9ddea662e" />
 
 ---
 
